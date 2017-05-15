@@ -1,0 +1,109 @@
+.gap{
+    font-size: 8px;
+}
+   
+span:hover{
+    color: rgb(29, 161, 242);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+	
+ul {
+	top: 0%;
+	margin: 0;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+	height: 47px;
+}
+
+ul li {
+    float: right;
+}
+
+ul li pre {
+    display: block;
+    color: white;
+	font-size: 12.5px;
+	padding-top: 3px;
+    text-align: center;
+    text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul li pre:hover{
+    color: blue;
+}
+
+#largebox{
+    position: absolute;
+    top: 130px;
+    left: 35%;
+	z-index:5;
+}     
+    
+.boxtext_1 {
+    font-size:28px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.name, .email-id, .password{
+    border : 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #eee;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 10px;
+	opacity: 0.7;
+}
+
+#boxtext_2{
+    color: #66757f;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+}
+
+#boxtext_3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+    font-size: 9pt;
+}
+
+#boxtext_4{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+}
+
+.submit{
+    background-color: #1da1f2;
+    cursor: pointer;
+    border : 1px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+#bar {
+	background: linear-gradient(to right, rgb(0,172,237) , #01DFA5); 
+	z-index: 100;
+}
+
+img{
+	padding: 7px 0px 0px 680px;
+}
+
+a:link{
+	color: rgb(29, 161, 242);
+    text-decoration: none;
+}
+    
+a:hover{
+    color: rgb(29, 161, 242);
+    text-decoration: underline;
+} 
+
+a:visited{
+	color: rgb(29, 161, 242);
+    text-decoration: none;
+}
